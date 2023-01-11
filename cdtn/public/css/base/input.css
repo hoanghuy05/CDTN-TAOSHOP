@@ -1,0 +1,242 @@
+.ms-input {
+    height: 36px;
+    border-radius: 3.5px;
+    border: 1px solid #e0e0e0;
+    padding: 9px 12px;
+}
+
+.ms-input:focus {
+    border: 1px solid #1a73e8;
+    outline: none;
+}
+
+
+.ms-radio {
+    width: 16px;
+    height: 16px;
+}
+
+.ms-radio:hover {
+    cursor: pointer;
+}
+
+.ms-input-item {
+    border: none;
+    padding: 9px 12px;
+    background: 0 0;
+    min-height: 34px;
+    max-height: 34px;
+}
+
+.ms-input-item:focus {
+    outline: none;
+}
+
+.ms--input {
+    background: #fff;
+    padding: 0;
+}
+
+
+.ms-editor .border-input.error {
+    border: 1px solid #ef5350;
+}
+
+.ms-editor .border-input:not(.error):focus-within {
+    border-color: #1a73e8;
+    outline: none;
+}
+
+.ms-editor .border-input {
+    border: 1px solid #e0e0e0;
+    border-radius: 3.5px;
+}
+
+
+.ms--radio {
+    position: relative;
+    display: inline-block;
+}
+
+.ms--radio input {
+    position: absolute;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+}
+
+.ms--radio input:not(:disabled):hover {
+    cursor: pointer;
+}
+
+input:not(:disabled):hover~.ms-radio--text {
+    cursor: pointer;
+}
+
+input:not(:disabled):not(:checked):hover~.checkmark {
+    cursor: pointer;
+    background: url(../../assets/icons/ic_radio_hover.9f996444.svg);
+}
+
+input:checked~.checkmark {
+    background: url(../../assets/icons/ic_radio_active.68000fa3.svg);
+}
+
+.checkmark {
+    display: inline-block;
+    background: url(../../assets/icons/ic_radio_inactive.478d13c5.svg);
+    width: 24px;
+    height: 24px;
+    vertical-align: bottom;
+    position: relative;
+    pointer-events: none;
+}
+
+.ms-radio--text {
+    padding-left: 4px;
+    padding-bottom: 0;
+    display: inline-block;
+}
+
+
+
+
+
+
+/**checkbox**/
+input[type="checkbox"]:checked~.checkmark {
+    background: url(../../assets/icons/ic_checkbox_active.5a4982e1.svg);
+}
+
+input[type="checkbox"]:not(:disabled):not(:checked):hover~.checkmark {
+    cursor: pointer;
+    background: url(../../assets/icons/ic_checkbox_hover.d04300f4.svg);
+}
+
+.ms-checkbox .checkmark {
+    display: inline-block;
+    background: url(../../assets/icons/ic_checkbox_gray.545380ea.svg);
+    width: 24px;
+    height: 24px;
+    vertical-align: bottom;
+    position: relative;
+}
+
+.ms-checkbox {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+}
+
+.ms-checkbox input {
+    position: absolute;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    z-index: 500;
+}
+
+.ms-checkbox--text {
+    margin-top: 2px;
+    padding-left: 4px;
+    display: inline-block;
+}
+
+
+
+
+/**input file**/
+.file-input__input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.file-input__label {
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4245A8;
+    font-size: 14px;
+    padding: 10px 12px;
+    border: 2px dotted #4245A8;
+}
+
+.file-input__label:hover {
+    background-color: rgba(66, 69, 168, 0.25);
+}
+
+.file-input__label svg {
+    height: 16px;
+    margin-right: 4px;
+}
+
+.form-group label.file-input__label {
+    width: 115px !important;
+    min-width: 115px;
+}
+
+#fileName {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 36px;
+}
+
+
+
+
+
+.file-input_input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 1;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.file-input_label {
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4245A8;
+    font-size: 14px;
+    padding: 10px 12px;
+    border: 2px dotted #4245A8;
+}
+
+.file-input_label:hover {
+    background-color: rgba(66, 69, 168, 0.25);
+}
+
+.file-input_label svg {
+    height: 16px;
+    margin-right: 4px;
+}
+
+.form-group label.file-input_label {
+    width: 115px !important;
+    min-width: 115px;
+}

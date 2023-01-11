@@ -1,0 +1,25 @@
+.WarrantyPolicy-wrapper {
+    width: 100%;
+    background: #fff;
+    min-height: calc(100vh - 412px);
+    display: flex;
+    justify-content: center;
+}
+
+.WarrantyPolicy-container {
+    width: 60%;
+}
+
+.WarrantyPolicy-title {
+    font-size: 20px;
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+}
+
+.WarrantyPolicy-extra {
+    padding-top: 40px;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+}

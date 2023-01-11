@@ -1,0 +1,121 @@
+.ipad-wrapper {
+    width: 100%;
+    background: #fff;
+}
+
+.ipad-container {
+    width: 90%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.ipad-container .ipad-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ipad-header .ipad-header-item {
+    flex: 1;
+    display: flex;
+    font-size: 18px;
+    justify-content: left;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.ipad-header .ipad-header-ipad:hover {
+    color: #000;
+}
+
+.ipad-main-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.ipad-main {
+    flex: 1;
+    height: 100%;
+}
+
+
+.ipad-list-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ipad-list .ipad-item-box {
+    width: calc(100% / 4);
+    display: flex;
+    justify-content: center;
+}
+
+.ipad-item-box {
+    display: flex;
+    justify-content: center;
+}
+
+.ipad-list .ipad-item {
+    width: 60%;
+}
+
+.ipad-item-image>img {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.ipad-main-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.ipad-main {
+    flex: 1;
+    height: 100%;
+}
+
+
+
+
+.ipad-list-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ipad-list .ipad-item-box {
+    width: calc(100% / 4);
+    display: flex;
+    justify-content: center;
+}
+
+.ipad-item-box {
+    display: flex;
+    justify-content: center;
+}
+
+.ipad-list .ipad-item {
+    width: 100%;
+}
+
+.ipad-item-image{
+    width: 250px;
+    height: 250px;
+}
+
+.wrapper-item-sim{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
+
+.wrapper-item-cost-price{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+}

@@ -1,0 +1,112 @@
+.customer-list-wrapper {
+    flex: 1;
+    width: calc(100% - 260px);
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+}
+
+.customer-list-container {
+    box-sizing: border-box;
+}
+
+.customer-list-header {
+    margin-bottom: 16px;
+}
+
+.ms-search {
+    width: 300px;
+    position: relative;
+}
+
+.ms-search .mi-search {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+}
+
+.ms-button {
+    position: relative;
+}
+
+.ms-button>div {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+}
+
+
+.customer-list-main {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 11px rgb(0 0 0 / 8%);
+}
+
+.ms-grid-viewer {
+    background-color: #fff;
+    position: relative;
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.ms-content--table {
+    position: relative;
+    overflow: auto;
+    min-height: calc(100vh - 250px);
+    border-bottom: 1px solid #ddd;
+    max-height: calc(100vh - 240px);
+}
+
+.scroller {
+    overflow: auto;
+    scrollbar-color: #cdd3d6 #fff;
+    scrollbar-width: thin;
+    z-index: 1;
+}
+
+.list-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+
+
+
+.m-content {
+    position: absolute;
+    top: 56px;
+    height: calc(100vh - 56px);
+    left: 204px;
+    width: calc(100% - 204px);
+}
+
+
+.m-content .main-view {
+    padding: 16px;
+    min-width: 500px;
+    min-height: 500px;
+    box-shadow: inset 0 1.5px 2px 0 rgb(0 0 0 / 10%);
+    background-color: #F5F5F5;
+    flex: 1;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.form-list .title-box {
+    margin: 0 0 16px;
+}
+
+.search-box {
+    width: 265px;
+}
+
+.row-actions .mi-edit:hover,
+.mi-delete:hover {
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    padding: 1px;
+}

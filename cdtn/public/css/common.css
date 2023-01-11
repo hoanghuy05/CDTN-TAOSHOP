@@ -1,0 +1,180 @@
+@import url(../css/components/header.css);
+@import url(../css/base/icon.css);
+@import url(../css/base/button.css);
+@import url(../css/base/input.css);
+@import url(../css/base/table.css);
+@import url(../css/base/select.css);
+
+* {
+    margin: 0;
+}
+
+body {
+    overflow: auto;
+    font-family: Fonts !important;
+    font-size: 16px !important;
+}
+
+.has-error input[type="text"] {
+    border: 1px solid #ef5350;
+}
+
+.error--text {
+    color: #ef5350;
+    font-size: 15px;
+    padding-top: 6px;
+}
+
+@font-face {
+    font-family: Fonts;
+    src: url(../assets/fonts/GoogleSans-Regular.77b210bc.woff2);
+}
+
+ul {
+    list-style: none;
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+}
+
+/* Track */
+/* ::-webkit-scrollbar-track {} */
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.text-color-primary {
+    color: #1A16EE;
+}
+
+.font-weigth-700 {
+    font-weight: 700;
+}
+
+.font-weigth-500 {
+    font-weight: 500;
+}
+
+.font-weigth-600 {
+    font-weight: 600;
+}
+
+.text-color-danger {
+    color: #F20A0A;
+}
+
+.text-color-black {
+    color: #000000;
+}
+
+.text-black {
+    color: #000;
+    font-weight: 400;
+}
+
+.text-color-white {
+    color: #8D8D8D;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.text-color-required {
+    color: #e54848;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-rtl {
+    display: flex;
+    flex-direction: rtl;
+    direction: rtl;
+    justify-content: flex-end;
+}
+
+.positon-relative {
+    position: relative;
+}
+
+a:hover {
+    text-decoration: dotted;
+}
+
+.m-link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.m-link:hover {
+    text-decoration: dotted;
+}
+
+.h-80 {
+    height: 80%;
+}
+
+.h-85 {
+    height: 85%;
+}
+
+.h-90 {
+    height: 90%;
+}
+
+.w-65 {
+    width: 65%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+.ms-editor {
+    border-radius: 3.5px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-border {
+    border-radius: 3.5px;
+    border: 1px solid #ef5350;
+}

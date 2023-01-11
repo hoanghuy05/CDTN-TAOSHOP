@@ -1,0 +1,30 @@
+.order-check-wrapper {
+    width: 100%;
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+}
+
+.order-check-container {
+    width: 60%;
+    display: flex;
+    height: calc(100vh - 100px -312px);
+}
+
+.order-check-container .order-check-left {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.order-check-image {
+
+    background: url(../../assets/images/ordercheck.jpg) no-repeat;
+    min-height: 250px;
+    min-width: 70%;
+    border-radius: 50%;
+    background-size: contain;
+    background-position: center;
+}

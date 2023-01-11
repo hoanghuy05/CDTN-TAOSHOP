@@ -1,0 +1,69 @@
+.customer-popup-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    display: none;
+    background-color: rgb(0 0 0 /25%);
+}
+
+.customer-popup-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    box-shadow: 0 0 16px rgb(23 27 42 / 24%);
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.popup-header {
+    padding: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    min-height: 24px;
+}
+
+.popup-content {
+    padding: 24px 24px 0;
+}
+
+.form-group:not(.top) {
+    margin-bottom: 16px;
+}
+
+.form-group.slide-detail label.form-group-label {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    height: 20px;
+    margin-bottom: 8px;
+    padding: 0;
+    width: auto;
+}
+
+
+.form-group label {
+    width: 140px;
+}
+
+.form-group.slide-detail .ms-radio {
+    padding: 0;
+}
+
+.popup-footer {
+    padding: 12px 24px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.popup-footer>div>div>.ms--btn.ms-btn-secondary {
+    text-align: center;
+    line-height: 46px;
+}
+
+.popup-footer>div>div>.ms--btn.ms-btn-secondary:hover {
+    cursor: pointer;
+}

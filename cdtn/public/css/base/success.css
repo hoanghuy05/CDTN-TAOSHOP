@@ -1,0 +1,25 @@
+.m-toast-box {
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0 0 16px rgb(23 27 42 / 24%);
+    width: 400px;
+    height: 56px;
+    display: none;
+    left: 50%;
+    top: 15px;
+    transform: translate(-50%);
+}
+
+.m-toast-box .m-toast {
+    display: flex;
+    padding-left: 16px;
+}
+
+.m-toast-box .m-toast .toast-content {
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.mi-checkdone {
+    background: transparent url(../../assets/icons/toast-success.c555a628.svg) no-repeat;
+}

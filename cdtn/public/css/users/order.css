@@ -1,0 +1,115 @@
+.m-order-wrapper {
+    width: 100%;
+    min-height: calc(100vh - 412px);
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.m-order-container {
+    width: 80%;
+    height: 100%;
+}
+
+.m-order-container .m-order-left {
+    width: 70%;
+    height: 100%;
+    margin-right: 30px;
+}
+
+
+
+
+/**table**/
+.m-table-box {
+    max-height: 360px;
+    overflow: auto;
+}
+
+.m-table-order {
+    max-height: 100%;
+}
+
+.m-table-order thead {
+    border: 1px solid #ddd;
+}
+
+.m-table-order thead tr {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.m-table-order thead tr th {
+    width: 80%;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+
+}
+
+.ms-th-title {
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 16px;
+    height: 48px;
+    align-items: center;
+}
+
+tbody .ms-tr {
+    border: 1px solid #ddd;
+}
+
+.ms-td {
+    padding: 0 16px;
+    height: 40px;
+    vertical-align: middle;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.ms-td-col {
+    height: 100%;
+}
+
+.ms-td-col img {
+    width: 150px;
+    height: 100%;
+}
+
+.m-order-footer {
+    margin-top: 20px;
+    padding: 16px 0 16px 0;
+    border: 1px solid #ddd;
+}
+
+.order-footer-item {
+    text-align: center;
+    line-height: 48px;
+    height: 48px;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    padding: 0 16px;
+    cursor: pointer;
+}
+
+.order-footer-item:hover {
+    background: #e8e8e8;
+}
+
+/**end table**/
+
+
+
+
+/**order-right**/
+
+.m-order-right {
+    background-color: #fff;
+    padding: 20px 0 0 20px;
+    width: 75%;
+    border: 1px solid #ddd;
+}
+
+/**end order-right***/

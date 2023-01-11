@@ -1,0 +1,138 @@
+.header {
+    position: sticky;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    top: 0;
+    z-index: 1;
+}
+
+
+.m-logo {
+    margin-left: 30px;
+    width: 150px;
+    height: 80%;
+    background-image: url(../../assets/images/logo.png);
+    background-size: 100% 100%;
+}
+
+.number_shopping_cart {
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #f5a623;
+}
+
+
+.number_shopping_cart>span {
+    padding-top: 2px;
+    padding-right: 2px;
+    font-size: 11px;
+    width: max-content;
+}
+
+.header-menu .header-item {
+    padding-right: 25px;
+    color: #000000;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.login-text {
+    cursor: pointer;
+    color: #000000;
+    font-weight: 700;
+}
+
+.login-text a {
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.login-text a:hover {
+    text-decoration: underline;
+}
+
+.header-menu .header-item a {
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.m-header-right>.user-header:last-child {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.user-header {
+    position: relative;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 4px;
+    height: 50px !important;
+}
+
+
+
+.dropdown-user-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+    right: 0;
+    z-index: 1;
+}
+
+.user-header:hover {
+    background-color: #f8f8f8;
+}
+
+.dropdown-user {
+    width: 200px;
+    min-width: max-content;
+    border-radius: 4px;
+    z-index: 2;
+    top: 56px;
+    right: 0;
+    background-color: #212121;
+    position: absolute;
+    padding: 16px;
+}
+
+.dropdown-user .item-dropdown-user {
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.item-dropdown-user {
+    display: flex;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.item-dropdown-user:hover {
+    border-radius: 8px;
+    background-color: #3a3a3a !important;
+}
+
+
+.user-header.show .dropdown-user,
+.user-header.show .dropdown-user-box {
+    display: block;
+}
+
+.user-header .dropdown-user,
+.user-header .dropdown-user-box {
+    display: none;
+}

@@ -1,0 +1,76 @@
+/**thông tin tài khoản user**/
+.m-profile-wrapper {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    height: calc(100vh - 100px - 312px);
+    min-height: 500px;
+    justify-content: center;
+}
+
+.m-profile-wrapper .m-profile-container {
+    width: 60%;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.m-profile-container .m-profile-left {
+    border-right: 1px solid#D9D9D9;
+    padding-right: 50px;
+}
+
+.m-profile-avatar {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #F1F1F1; */
+    border-radius: 50%;
+}
+
+.m-profile-avatar img {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+}
+
+.m-profile-list {
+    padding: 0;
+}
+
+.m-profile-item-text {
+    font-weight: 500;
+    color: #000000;
+}
+
+.m-profile-item-text a {
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.m-profile-right {
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.m-profile-right .profile-right-title {
+    border-bottom: 1px solid #D9D9D9;
+    padding-bottom: 10px;
+}
+
+
+.profile-right-main {
+    width: 100%;
+    height: 100%;
+}
+
+.profile-right-main .profile-item {
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+/**end thông tin**/

@@ -1,0 +1,77 @@
+.m-footer {
+    box-sizing: border-box;
+    padding-top: 40px;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+}
+
+.m-footer .m-footer-logo {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.m-footer .footer-right {
+    flex: 1;
+    height: 100%;
+}
+
+
+.m-footer-logo .footer-logo {
+    width: 200px;
+    height: 150px;
+    background: url(../../assets/images/logo_black.png);
+}
+
+.m-footer-logo .footer-contact {
+    width: 243px;
+    height: 72px;
+    background: url(../../assets/images/fzyt.jpg);
+    margin-bottom: 50px;
+}
+
+.footer-menu-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer-menu {
+    margin-top: 22px;
+    padding: 0;
+}
+
+.footer-menu .footer-item a {
+    color: #FFFFFF;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.footer-menu .footer-item {
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.footer-menu .footer-item a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-menu .footer-item:not(:first-child) {
+    margin-top: 14px;
+}
+
+
+.footer-right .footer-right-item:nth-child(1) {
+    margin-right: 100px;
+}
+
+.footer-right .footer-right-item:nth-child(2) {
+    margin-right: 100px;
+}
+
+.footer-right .footer-right-item:nth-child(3) {
+    margin-right: 100px;
+}

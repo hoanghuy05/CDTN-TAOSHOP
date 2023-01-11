@@ -1,0 +1,141 @@
+.mi-16 {
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+}
+
+.mi-20 {
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    min-height: 20px;
+}
+
+.mi-24 {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+.mi-24-22 {
+    width: 24px;
+    height: 22px;
+}
+
+.mi-32 {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+}
+
+.icon-cart {
+    background-image: url(../../assets/icons/cart.jpg);
+    background-size: 100% 100%;
+}
+
+
+
+.mi {
+    background: url(../../assets/images/Sprites.64af8f61.svg) no-repeat;
+    cursor: pointer;
+}
+
+.mi-ce {
+    background: url(../../assets/images/CeGo_Sprites.f3e906b1.svg) no-repeat;
+    cursor: pointer;
+}
+
+.icon-search {
+    background-image: url(../../assets/icons/search.jpg);
+    background-size: 100% 100%;
+}
+
+.mi-search {
+    background-position: -289px -24px;
+}
+
+.mi-bg-image {
+    background-size: 100% 100%;
+}
+
+.icon-star {
+    background-image: url(../../assets/icons/star.jpg);
+}
+
+.icon-check-active {
+    background-image: url(../../assets/icons/check-active.jpg);
+}
+
+
+.mi-list {
+    background-position: -316px -74px;
+}
+
+.icon-help {
+    background-position: -50px -50px;
+}
+
+.mi-chervon-down {
+    background-position: -175px -57px;
+}
+
+.mi-user {
+    background-position: -192px -256px;
+}
+
+.mi-logout {
+    background-position: -75px -75px;
+}
+
+.icon-close {
+    background-position: -242px -26px;
+}
+
+.mi-edit {
+    background-position: 0 -72px;
+}
+
+.mi-add-white {
+    background-position: -192px -96px;
+}
+
+.icon-report {
+    background: url(../../assets/icons/ic_report_default.67157268.f37fa0c2.svg);
+}
+
+.icon-email {
+    background: url(../../assets/icons/email.jpg);
+}
+
+
+.mi-checkdone {
+    background-position: -112px -144px;
+}
+
+.mi-delete {
+    background-position: -339px -75px;
+}
+
+.mi-close {
+    background-position: -236px -20px;
+}
+
+.mi-close:hover {
+    background-position: -260px -20px;
+}
+
+.arrow-right {
+    background-image: url(../../assets/icons/icons8-chevron-right-24.png);
+    background-size: 16px;
+}
+
+.mi-arrow-right {
+    background-position: -177px -7px;
+}
+
+.mi-test {
+    background-position: -626px -145px;
+}

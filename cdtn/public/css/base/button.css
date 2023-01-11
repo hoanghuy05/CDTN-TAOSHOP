@@ -1,0 +1,76 @@
+.btn-bg-primary {
+    background: #2979ff;
+}
+
+.m-btn {
+    width: 180px;
+}
+
+.ms-btn {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    color: #000000;
+}
+
+.btn-color-white {
+    color: #fff;
+}
+
+.ms--btn .icon-add-white {
+    display: inline-block;
+    margin: -7px 5px -7px 12px;
+}
+
+.ms--btn .btn-text {
+    display: inline-block;
+    white-space: nowrap;
+    padding-right: 16px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.ms--btn {
+    min-height: 36px;
+    min-width: 80px;
+    border: none;
+    box-shadow: none;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    border-radius: 4px;
+    white-space: nowrap;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.ms-btn-icon {
+    border: none;
+    color: #000000;
+    border-radius: 8px;
+    padding: 8px 16px 8px 40px;
+}
+
+.ms--btn.ms-btn-secondary {
+    border: 1px solid #e0e0e0;
+    color: #000;
+    background: #fff;
+}
+
+.ms--btn:not(:disabled).ms-btn-secondary:hover {
+    background: #f4f5f8;
+}
+
+.ms--btn:not(:disabled).btn-bg-primary:hover {
+    background: #1a73e8;
+}
+
+.btn-bg-light {
+    background: #FFFFFF !important;
+    border: 1px solid #1A16EE !important;
+}
+
+.btn-bg-light:hover {
+    background-color: #eceeff !important;
+}

@@ -1,0 +1,11 @@
+.order-success-right-main {
+    background-color: #ddd;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.order-success-right-title {
+    position: sticky;
+    top: 0;
+    background-color: #ddd;
+}

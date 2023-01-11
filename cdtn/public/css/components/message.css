@@ -1,0 +1,73 @@
+.m-message {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.253);
+    z-index: 1000;
+}
+
+.ms-mesage-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .2s;
+    z-index: 1000000;
+    background-color: red;
+    max-width: calc(100% - 30px);
+    width: 444px;
+    box-shadow: 0 0 16px rgb(23 27 42 / 24%);
+    background: #fff;
+    border-radius: 3px;
+}
+
+.close-button {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    height: 24px;
+    width: 24px;
+}
+
+.message-header {
+    padding: 20px 16px 16px;
+    min-height: 144px;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.message-content {
+    overflow: auto;
+    max-height: 400px;
+}
+
+.content .message-title {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.content .message-main {
+    display: block;
+}
+
+.mess-footer {
+    flex-direction: row-reverse;
+    display: flex;
+    position: relative;
+    height: 60px;
+    padding: 0 24px 24px 16px;
+    border-radius: 3px;
+}
+
+.mess-footer-box {
+    height: 32px;
+    padding-left: 8px;
+    min-width: 85px;
+}
